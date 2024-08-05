@@ -409,7 +409,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description: "As a highly efficient and customer-focused professional, I currently automate infrastructure processes to reduce manual workload and improve system scalability. I accelerate deployment times through a robust CI/CD pipeline, enabling rapid response to evolving business needs. I develop and maintain interactive sales data dashboards using Power BI, providing actionable insights that inform data-driven decision-making. With a strong focus on operational reliability, I ensure high system performance and uptime through effective monitoring and log analysis tools. I continuously optimize network architecture to reduce user downtime and lag, enhancing the overall user experience. With a customer-centric approach, I consistently deliver exceptional customer satisfaction, maintaining a 95% satisfaction rating despite high technical support ticket volumes.",
-  header_image_path: "Experience1.svg",
+  header_image_path: "experiences.svg",
   sections: [
     {
       title: "Work",
@@ -478,45 +478,45 @@ const projectsHeader = {
   title: "Projects",
   description:
     "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
-  avatar_image_path: "girl-project.svg",
+  avatar_image_path: "girlproject.svg",
 };
 
 const publicationsHeader = {
   title: "Publications",
   description: "Some of my published Articles, Blogs and Research.",
-  avatar_image_path: "projects_image.svg",
+  avatar_image_path: "girlproject.svg",
 };
 
 const publications = {
   data: [
-    // {
-    //   id: "",
-    //   name: "Developing Accurate and Reliable Machine Learning Classifiers to Identify and Predict Key Protein-Protein Interaction Sites",
-    //   createdAt: "NA",
-    //   description: "Published in Computational Drug Discovery and Design, Springer Methods in Molecular Biology series",
-    //   url: "#",
-    // },
-    // {
-    //   id: "Ordinal Regression-based Age Estimation with Neural Networks: A Ranked Approach",
-    //   name: "Ordinal Regression-based Age Estimation with Neural Networks: A Ranked Approach",
-    //   createdAt: "NA",
-    //   description: "Published in IEEE",
-    //   url: "",
-    // },
-    // {
-    //   id: "Heart Disease Detection Using Big Data Approach",
-    //   name: "Heart Disease Detection Using Big Data Approach",
-    //   createdAt: "NA",
-    //   description: "Published in IEEE",
-    //   url: "",
-    // },
-    // {
-    //   id: "Classification of Arrhythmia using ECG Data",
-    //   name: "Classification of Arrhythmia using ECG Data",
-    //   createdAt: "NA",
-    //   description: "Published in IEEE",
-    //   url: "",
-    // },
+    {
+      id: "",
+      name: "Developing Accurate and Reliable Machine Learning Classifiers to Identify and Predict Key Protein-Protein Interaction Sites",
+      createdAt: "NA",
+      description: "Published in Computational Drug Discovery and Design, Springer Methods in Molecular Biology series",
+      url: "#",
+    },
+    {
+      id: "Ordinal Regression-based Age Estimation with Neural Networks: A Ranked Approach",
+      name: "Ordinal Regression-based Age Estimation with Neural Networks: A Ranked Approach",
+      createdAt: "NA",
+      description: "Published in IEEE",
+      url: "",
+    },
+    {
+      id: "Heart Disease Detection Using Big Data Approach",
+      name: "Heart Disease Detection Using Big Data Approach",
+      createdAt: "NA",
+      description: "Published in IEEE",
+      url: "",
+    },
+    {
+      id: "Classification of Arrhythmia using ECG Data",
+      name: "Classification of Arrhythmia using ECG Data",
+      createdAt: "NA",
+      description: "Published in IEEE",
+      url: "",
+    },
   ],
 };
 
