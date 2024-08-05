@@ -477,7 +477,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects leverage a broad range of cutting-edge technologies, with a strong focus on designing, implementing, and optimizing CI/CD pipelines. My expertise lies in bridging the gap between development and operations, ensuring seamless collaboration and automation. I excel at containerizing applications using Docker, orchestrating them with Kubernetes, and deploying to cloud infrastructure on AWS or Azure, ensuring scalability, reliability, and high availability.",
   avatar_image_path: "girlproject.svg",
 };
 
