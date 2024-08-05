@@ -6,6 +6,7 @@ import ExperienceAccordion from "../../containers/experienceAccordion/Experience
 import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
+import expimg from "../../assets/images/experiences.svg"
 // import ExperienceImg from "./ExperienceImg";
 
 class Experience extends Component {
@@ -19,7 +20,7 @@ class Experience extends Component {
             <div className="experience-heading-div">
               <div className="experience-heading-img-div">
                 <img
-									src={require(`../../assets/images/${experience.header_image_path}`)}
+									src={expimg}
 									alt=""
 								/>
                 {/* <ExperienceImg theme={theme} /> */}
