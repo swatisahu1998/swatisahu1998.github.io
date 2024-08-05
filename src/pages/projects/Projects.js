@@ -11,7 +11,9 @@ import { projectsHeader } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 // import ProjectsImg from "./ProjectsImg";
-
+const projectdetail = projectsHeader;
+const publicationsHeaderdetail = publicationsHeader;
+const publicationdetail = publications;
 class Projects extends Component {
   render() {
     const theme = this.props.theme;
@@ -23,7 +25,7 @@ class Projects extends Component {
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
                 <img
-											src={require(`../../assets/images/${projectsHeader["avatar_image_path"]}`)}
+											src={require(`../../assets/images/${projectdetail["avatar_image_path"]}`)}
 											alt=""
 										/>
                 {/* <ProjectsImg theme={theme} /> */}
@@ -33,13 +35,13 @@ class Projects extends Component {
                   className="projects-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {projectsHeader.title}
+                  {projectdetail.title}
                 </h1>
                 <p
                   className="projects-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {projectsHeader["description"]}
+                  {projectdetail["description"]}
                 </p>
               </div>
             </div>
@@ -59,7 +61,7 @@ class Projects extends Component {
         />
 
         {/* Publications  */}
-        {publications.data.length > 0 ? (
+        {publicationdetail.data.length > 0 ? (
           <div className="basic-projects">
             <Fade bottom duration={2000} distance="40px">
               <div className="publications-heading-div">
@@ -68,13 +70,13 @@ class Projects extends Component {
                     className="publications-heading-text"
                     style={{ color: theme.text }}
                   >
-                    {publicationsHeader.title}
+                    {publicationsHeaderdetail.title}
                   </h1>
                   <p
                     className="projects-header-detail-text subTitle"
                     style={{ color: theme.secondaryText }}
                   >
-                    {publicationsHeader["description"]}
+                    {publicationsHeaderdetail["description"]}
                   </p>
                 </div>
               </div>
