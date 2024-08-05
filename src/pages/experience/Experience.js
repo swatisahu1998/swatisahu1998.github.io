@@ -4,9 +4,11 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
 import "./Experience.css";
-import { experiencew } from "../../portfolio.js";
+import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
 // import ExperienceImg from "./ExperienceImg";
+
+const experiencedetail = experience;
 
 class Experience extends Component {
   render() {
@@ -19,7 +21,7 @@ class Experience extends Component {
             <div className="experience-heading-div">
               <div className="experience-heading-img-div">
                 <img
-									src={require(`../../assets/images/${experiencew["header_image_path"]}`)}
+									src={require(`../../assets/images/${experiencedetail["header_image_path"]}`)}
 									alt=""
 								/>
                 {/* <ExperienceImg theme={theme} /> */}
@@ -29,25 +31,25 @@ class Experience extends Component {
                   className="experience-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {experiencew.title}
+                  {experiencedetail.title}
                 </h1>
                 <h3
                   className="experience-heading-sub-text"
                   style={{ color: theme.text }}
                 >
-                  {experiencew["subtitle"]}
+                  {experiencedetail["subtitle"]}
                 </h3>
                 <p
                   className="experience-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {experiencew["description"]}
+                  {experiencedetail["description"]}
                 </p>
               </div>
             </div>
           </Fade>
         </div>
-        <ExperienceAccordion sections={experiencew["sections"]} theme={theme} />
+        <ExperienceAccordion sections={experiencedetail["sections"]} theme={theme} />
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>
