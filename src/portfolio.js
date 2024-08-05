@@ -489,34 +489,14 @@ const publicationsHeader = {
 
 const publications = {
   data: [
-    {
-      id: "",
-      name: "Developing Accurate and Reliable Machine Learning Classifiers to Identify and Predict Key Protein-Protein Interaction Sites",
-      createdAt: "NA",
-      description: "Published in Computational Drug Discovery and Design, Springer Methods in Molecular Biology series",
-      url: "#",
-    },
-    {
-      id: "Ordinal Regression-based Age Estimation with Neural Networks: A Ranked Approach",
-      name: "Ordinal Regression-based Age Estimation with Neural Networks: A Ranked Approach",
-      createdAt: "NA",
-      description: "Published in IEEE",
-      url: "",
-    },
-    {
-      id: "Heart Disease Detection Using Big Data Approach",
-      name: "Heart Disease Detection Using Big Data Approach",
-      createdAt: "NA",
-      description: "Published in IEEE",
-      url: "",
-    },
-    {
-      id: "Classification of Arrhythmia using ECG Data",
-      name: "Classification of Arrhythmia using ECG Data",
-      createdAt: "NA",
-      description: "Published in IEEE",
-      url: "",
-    },
+    // {
+    //   id: "",
+    //   name: "Developing Accurate and Reliable Machine Learning Classifiers to Identify and Predict Key Protein-Protein Interaction Sites",
+    //   createdAt: "NA",
+    //   description: "Published in Computational Drug Discovery and Design, Springer Methods in Molecular Biology series",
+    //   url: "#",
+    // },
+    
   ],
 };
 
