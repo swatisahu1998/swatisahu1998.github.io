@@ -405,7 +405,7 @@ const certifications = {
 };
 
 // Experience Page
-const experience = {
+const experiencew = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description: "As a highly efficient and customer-focused professional, I currently automate infrastructure processes to reduce manual workload and improve system scalability. I accelerate deployment times through a robust CI/CD pipeline, enabling rapid response to evolving business needs. I develop and maintain interactive sales data dashboards using Power BI, providing actionable insights that inform data-driven decision-making. With a strong focus on operational reliability, I ensure high system performance and uptime through effective monitoring and log analysis tools. I continuously optimize network architecture to reduce user downtime and lag, enhancing the overall user experience. With a customer-centric approach, I consistently deliver exceptional customer satisfaction, maintaining a 95% satisfaction rating despite high technical support ticket volumes.",
@@ -561,7 +561,7 @@ export {
   competitiveSites,
   degrees,
   certifications,
-  experience,
+  experiencew,
   projectsHeader,
   publicationsHeader,
   publications,

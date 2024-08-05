@@ -4,9 +4,8 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
 import "./Experience.css";
-import { experience } from "../../portfolio.js";
+import { experiencew } from "../../portfolio.js";
 import { Fade } from "react-reveal";
-import expimg from "../../assets/images/experiences.svg"
 // import ExperienceImg from "./ExperienceImg";
 
 class Experience extends Component {
@@ -20,7 +19,7 @@ class Experience extends Component {
             <div className="experience-heading-div">
               <div className="experience-heading-img-div">
                 <img
-									src={expimg}
+									src={require(`../../assets/images/${experiencew["header_image_path"]}`)}
 									alt=""
 								/>
                 {/* <ExperienceImg theme={theme} /> */}
@@ -30,25 +29,25 @@ class Experience extends Component {
                   className="experience-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {experience.title}
+                  {experiencew.title}
                 </h1>
                 <h3
                   className="experience-heading-sub-text"
                   style={{ color: theme.text }}
                 >
-                  {experience["subtitle"]}
+                  {experiencew["subtitle"]}
                 </h3>
                 <p
                   className="experience-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {experience["description"]}
+                  {experiencew["description"]}
                 </p>
               </div>
             </div>
           </Fade>
         </div>
-        <ExperienceAccordion sections={experience["sections"]} theme={theme} />
+        <ExperienceAccordion sections={experiencew["sections"]} theme={theme} />
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>

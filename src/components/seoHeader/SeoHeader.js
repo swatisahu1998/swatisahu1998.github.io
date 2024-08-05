@@ -4,7 +4,7 @@ import {
   greeting,
   seo,
   socialMediaLinks,
-  experience,
+  experiencew,
   contactPageData,
   certifications,
 } from "../../portfolio.js";
@@ -23,7 +23,7 @@ function SeoHeader() {
   let mail = socialMediaLinks
     .find((media) => media.link.startsWith("mailto"))
     .link.substring("mailto:".length);
-  let job = experience.sections
+  let job = experiencew.sections
     ?.find((section) => section.work)
     ?.experiences?.at(0);
 
