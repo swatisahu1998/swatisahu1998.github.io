@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "feda3b95ea2468e0a6d37b408f68b186",
+    "revision": "5cdf402970c06af927b1268df98bde9f",
     "url": "/index.html"
   },
   {
-    "revision": "81597105588a461a96f5",
+    "revision": "825d258bc6d5f17e1b19",
     "url": "/static/css/main.c4add441.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.6d132d2d.chunk.js"
   },
   {
-    "revision": "81597105588a461a96f5",
-    "url": "/static/js/main.5963543b.chunk.js"
+    "revision": "825d258bc6d5f17e1b19",
+    "url": "/static/js/main.e55a0e3c.chunk.js"
   },
   {
     "revision": "3aaee17f1d16522d6bf4",
@@ -22,10 +22,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
     "url": "/static/media/Agustina.21f233e1.woff"
-  },
-  {
-    "revision": "76ec97c3dece1c41370bc36ab553f5a1",
-    "url": "/static/media/Experience1.76ec97c3.svg"
   },
   {
     "revision": "4457817ac2b9993c65e81aa05828fe9c",
@@ -122,6 +118,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a00ede3f70759480e81f14f203edaa51",
     "url": "/static/media/experience.a00ede3f.svg"
+  },
+  {
+    "revision": "76ec97c3dece1c41370bc36ab553f5a1",
+    "url": "/static/media/experiences.76ec97c3.svg"
   },
   {
     "revision": "0017cc6de3f72f67753efa37bb796fbd",
@@ -224,10 +224,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/girl-network.18380630.svg"
   },
   {
-    "revision": "e34a9338529fabd77373053fb4fe31c5",
-    "url": "/static/media/girl-project.e34a9338.svg"
-  },
-  {
     "revision": "77879c3dec60e94ffaad98949896263a",
     "url": "/static/media/girl-sketch.77879c3d.svg"
   },
@@ -242,6 +238,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4633a6fcc30c88911b6ca6104e05c944",
     "url": "/static/media/girl3.4633a6fc.svg"
+  },
+  {
+    "revision": "e34a9338529fabd77373053fb4fe31c5",
+    "url": "/static/media/girlproject.e34a9338.svg"
   },
   {
     "revision": "6eeb2e810d0fd9f3ca2dcd72de228e68",

@@ -1,18 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.c4add441.chunk.css",
-    "main.js": "/static/js/main.5963543b.chunk.js",
-    "main.js.map": "/static/js/main.5963543b.chunk.js.map",
+    "main.js": "/static/js/main.e55a0e3c.chunk.js",
+    "main.js.map": "/static/js/main.e55a0e3c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f8899d9b.js",
     "runtime-main.js.map": "/static/js/runtime-main.f8899d9b.js.map",
     "static/js/2.6d132d2d.chunk.js": "/static/js/2.6d132d2d.chunk.js",
     "static/js/2.6d132d2d.chunk.js.map": "/static/js/2.6d132d2d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7903c61b875de7f45b1a4fa9202302d5.js": "/precache-manifest.7903c61b875de7f45b1a4fa9202302d5.js",
+    "precache-manifest.353fa6b5e0c625a9cce9841fab3f6468.js": "/precache-manifest.353fa6b5e0c625a9cce9841fab3f6468.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.c4add441.chunk.css.map": "/static/css/main.c4add441.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
-    "static/media/Experience1.svg": "/static/media/Experience1.76ec97c3.svg",
     "static/media/RGPVLOGO.jpeg": "/static/media/RGPVLOGO.5d55df68.jpeg",
     "static/media/Sisense.jpg": "/static/media/Sisense.62b9ef76.jpg",
     "static/media/address_image.svg": "/static/media/address_image.16559172.svg",
@@ -30,6 +29,7 @@
     "static/media/education.svg": "/static/media/education.3bab7a9d.svg",
     "static/media/epam.jpeg": "/static/media/epam.e6bec896.jpeg",
     "static/media/experience.svg": "/static/media/experience.a00ede3f.svg",
+    "static/media/experiences.svg": "/static/media/experiences.76ec97c3.svg",
     "static/media/all.css": "/static/media/fa-solid-900.8e4a6dcc.eot",
     "static/media/feelingProud.svg": "/static/media/feelingProud.2936ce95.svg",
     "static/media/fullstack.svg": "/static/media/fullstack.fce60807.svg",
@@ -41,11 +41,11 @@
     "static/media/girl-design.svg": "/static/media/girl-design.2ed61371.svg",
     "static/media/girl-devops.svg": "/static/media/girl-devops.2b14eba7.svg",
     "static/media/girl-network.svg": "/static/media/girl-network.18380630.svg",
-    "static/media/girl-project.svg": "/static/media/girl-project.e34a9338.svg",
     "static/media/girl-sketch.svg": "/static/media/girl-sketch.77879c3d.svg",
     "static/media/girl-support.svg": "/static/media/girl-support.d05ac908.svg",
     "static/media/girl-visualization.svg": "/static/media/girl-visualization.be22c2cf.svg",
     "static/media/girl3.svg": "/static/media/girl3.4633a6fc.svg",
+    "static/media/girlproject.svg": "/static/media/girlproject.e34a9338.svg",
     "static/media/github_logo.png": "/static/media/github_logo.6eeb2e81.png",
     "static/media/googleAssistant.jpg": "/static/media/googleAssistant.0c8a4c11.jpg",
     "static/media/googleAssistant.svg": "/static/media/googleAssistant.a6addc3f.svg",
@@ -80,6 +80,6 @@
     "static/js/runtime-main.f8899d9b.js",
     "static/js/2.6d132d2d.chunk.js",
     "static/css/main.c4add441.chunk.css",
-    "static/js/main.5963543b.chunk.js"
+    "static/js/main.e55a0e3c.chunk.js"
   ]
 }
